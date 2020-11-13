@@ -34,13 +34,13 @@
 <div>Total: <span id="total"></span> </div>
 
 <script>
- var total = 0; // variável que retorna o total dos produtos que estão na LocalStorage.
- var i = 0;     // variável que irá percorrer as posições
- var valor = 0; // variável que irá receber o preço do produto convertido em Float.
+ var total = 0; 
+ var i = 0;     
+ var valor = 0; 
  
- for(i=1; i<=99; i++) // verifica até 99 produtos registrados na localStorage
+ for(i=1; i<=99; i++) e
  {
-	 var prod = localStorage.getItem("produto" + i + ""); // verifica se há recheio nesta posição. 
+	 var prod = localStorage.getItem("produto" + i + "");
 	 if(prod != null) 
 	 {	
 		 // exibe os dados da lista dentro da div itens
@@ -50,11 +50,10 @@
 		 document.getElementById("itens").innerHTML += "R$: " + localStorage.getItem("valor" + i) + "<hr>";
 		 
 		 // calcula o total dos recheios
-		 valor = parseFloat(localStorage.getItem("valor" + i)); // valor convertido com o parseFloat()
-		 total = (total + valor); // arredonda para 2 casas decimais com o .toFixed(2)
+		 valor = parseFloat(localStorage.getItem("valor" + i)); 
+		 total = (total + valor); 
 	 }
  } 
- // exibe o total dos recheios
  document.getElementById("total").innerHTML = total.toFixed(2); 
 </script>
 
