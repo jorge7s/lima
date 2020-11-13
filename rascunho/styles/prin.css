@@ -1,0 +1,36 @@
+header{
+    background-color: cadetblue;
+}
+h1{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: lemonchiffon;
+}
+section{
+    text-align: center;
+}
+
+footer{
+    background-color: slateblue; 
+    position: relative;
+    top: 100px;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-color: gray;
+}
+h1{
+    margin: 0;
+}
+#logotipo{
+    text-align: end;
+}
+
