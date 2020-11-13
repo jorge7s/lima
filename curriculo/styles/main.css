@@ -1,0 +1,32 @@
+header{
+    background-color: cadetblue;
+}
+body{
+    text-align: center;
+}
+section{
+    background-color: gray;
+}
+
+footer{
+    background-color: slateblue; 
+}
+body {
+    height: 100%;
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
+#infor{
+    text-align: right;
+}
+#esc{
+    text-align: left;
+}
+#for{
+    padding-left: 75%;
+    position: absolute;
+    top: 75%;
+}
+
